@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <section class="leftTitel">
+                <h1 id="titel">Standard</h1>
+            </section>
+            <aside class="sidebar">
+                <button id="history" style="visibility: hidden">Verlauf</button>
+            </aside>
+            <div class="clr"></div>
+            <section class="leftTitel">
+                <p>&nbsp;</p>
+            </section>
+            <aside class="sidebar">
+                <p id="input"></p>
+            </aside>
+            <div class="clr"></div>
+            <p id="result">0</p>
+            <table id="inputPanel">
+                <tr>
+                    <th><button type="button" onClick="math('%')" class="button">%</button></th>
+                    <th><button type="button" onClick="math('CE')" class="button">CE</button></th>
+                    <th><button type="button" onClick="math('C')" class="button">C</button></th>
+                    <th><button type="button" onClick="math('Backspace')" class="button">&#9224</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onClick="math('Test')" style="visibility: hidden" class="button">Test</button></th>
+                    <th><button type="button" onClick="math('Test')" style="visibility: hidden" class="button">Test</button></th>
+                    <th><button type="button" onClick="math('Test')" style="visibility: hidden" class="button">Test</button></th>
+                    <th><button type="button" onClick="math('/')" class="button">&#247</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onClick="math('7')" class="button">7</button></th>
+                    <th><button type="button" onClick="math('8')" class="button">8</button></th>
+                    <th><button type="button" onClick="math('9')" class="button">9</button></th>
+                    <th><button type="button" onClick="math('X')" class="button">&#215</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onClick="math('4')" class="button">4</button></th>
+                    <th><button type="button" onClick="math('5')" class="button">5</button></th>
+                    <th><button type="button" onClick="math('6')" class="button">6</button></th>
+                    <th><button type="button" onClick="math('-')" class="button">&#8722</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onClick="math('1')" class="button">1</button></th>
+                    <th><button type="button" onClick="math('2')" class="button">2</button></th>
+                    <th><button type="button" onClick="math('3')" class="button">3</button></th>
+                    <th><button type="button" onClick="math('+')" class="button">+</button></th>
+                </tr>
+                <tr>
+                    <th><button type="button" onClick="math('+/-')" style="visibility: hidden" class="button">+/-</button></th>
+                    <th><button type="button" onClick="math('0')" class="button">0</button></th>
+                    <th><button type="button" onClick="math(',')" class="button">,</button></th>
+                    <th><button type="button" onClick="math('=')" class="button">=</button></th>
+                </tr>
+            </table>
+        <p id="test"></p>
+        </div>
+        </div>
+<script src="js/myScript.js"></script>
+</body>
+</html>

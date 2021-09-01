@@ -83,6 +83,7 @@ function math(expression)
         case "Test":
             break;
         default:
+            console.log("error1")
     }
 }
 
@@ -284,7 +285,7 @@ function checkKeyPress(button){
             math("-");
             break;
         case 106:
-            math("*");
+            math("X");
             break;
         case 111:
             math("/");
